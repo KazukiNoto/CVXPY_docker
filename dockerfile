@@ -6,4 +6,4 @@ ADD . /app
 # pip本体のアップデート
 RUN pip install -U pip
 
-RUN conda install -c conda-forge cvxpy -y
+# RUN conda install -c conda-forge cvxpy -y
